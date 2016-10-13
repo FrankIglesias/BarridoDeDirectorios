@@ -45,7 +45,7 @@ void funcionArchivo(char * ruta) {
 	printf("Archivo: %s\n", ruta);
 }
 int main(int argc, char *argv[]) {
-	recorrerDirectorios("/home/utnso/workspace/PruebaDirectorio/",
+	recorrerDirectorios("/home/utnso/workspace/",
 			funcionCarpeta, funcionArchivo);
 	return 0;
 }
